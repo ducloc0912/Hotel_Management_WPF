@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="BookingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FormSelect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InsertNewCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListBookingMng.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProfileWF.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoomManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewBooking.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BookingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FormSelect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InsertNewCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListBookingMng.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProfileWF.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoomManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewBooking.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
